@@ -1,12 +1,18 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   theme: {
     extend: {
       colors: {
-        customColor: '#FF5733',  // Replace with your custom color
+        primary: '#1DA1F2',
+        secondary: '#14171A',
+        accent: '#FFAD1F',
+        neutral: '#657786',
+        'base-100': '#FFFFFF',
+        // Add more colors as needed
       },
       fontFamily: {
-        customFont: ['Open Sans', 'sans-serif'],  // Replace with your custom font
+        sans: ['Graphik', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+        // Add more fonts as needed
       },
     },
   },
